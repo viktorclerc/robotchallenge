@@ -195,7 +195,7 @@ a:hover {
 .top-nav li {
     display: inline-block;
     text-align: center;
-    width: 25%;
+    width: 20%;
 }
 
 .top-nav a {
@@ -344,6 +344,23 @@ a:hover {
 .blog-list {
     text-align: center;
     margin-bottom: 40px;
+}
+
+.tour-list {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tour-item .title {
+    margin-bottom: 0;
+	color: #06a99c;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.tour-item .subtitle {
+    margin: 0;
 }
 
 .blog-item .title {
