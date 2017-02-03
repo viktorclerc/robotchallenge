@@ -175,6 +175,17 @@ if( $detect->isiOS() ){
             </div>
             <div class="content">
                 <p class="heading">LET’S GET IN TOUCH!</p>
+                <!--[if lte IE 8]>
+                  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+                <![endif]-->
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                <script>
+                  hbspt.forms.create({
+                    portalId: '697348',
+                    formId: '4c45fb8c-bc05-439e-b847-a181918286c4'
+                  });
+                </script>
+
                 <p class="text">Interested to learn more? Want to use the Robot Challenge to kick-start innovation and collaboration within your organization? Don't hesitate, just give us a call!</p>
                 <div class="contact-list">
                     <p class="name">Reinier Verschure</p>
@@ -200,13 +211,17 @@ if( $detect->isiOS() ){
             </div>
         </div>
 
-		<div id="blog-window" class="modal-box">
+		    <div id="blog-window" class="modal-box">
             <span class="js-modal-close close"></span>
             <div id="blog-frame">
                 <iframe src="" frameborder="0" allowfullscreen scrolling="<?php echo ($ios) ? 'no' : ''; ?>"></iframe>
             </div>
         </div>
 
+
+        <!-- Start of HubSpot Embed Code -->
+          <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/697348.js"></script>
+        <!-- End of HubSpot Embed Code -->
 
         <script src="js/vendor/jquery-1.12.0.min.js"></script>
         <script src="js/vendor/jquery.easing.min.js"></script>
