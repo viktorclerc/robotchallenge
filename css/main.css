@@ -139,6 +139,117 @@ ul {
    MAIN
    ========================================================================== */
 
+body form.hs-form label {
+  padding-left: 200px;
+  font-family:ProximaNova;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.hs-error-msgs label {
+  color:#F00
+}
+
+span.hs-form-required{
+  font-size:18px;
+  color:red
+}
+
+body{
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: ProximaNova
+}
+
+
+body form.hs-form .hs-form-field ul.inputs-list {
+  list-style: none;
+  padding: 0 20px 0 0;
+  padding-left: 200px;
+  font-family: ProximaNova;
+}
+#hs_form_target_blog_subscription input[type="radio"],
+#hs_form_target_blog_subscription input[type="checkbox"] {
+  width:auto;margin-right:10px
+}
+
+body form.hs-form fieldset {
+  max-width:none
+}
+body form.hs-form fieldset .hs-form-field {
+  padding:0 10px 0 0
+}
+body form.hs-form fieldset[class*="form-columns"] .input {
+  margin-right:0
+}
+
+body form.hs-form fieldset[class*="form-columns"] .hs-input {
+  width:100%
+}
+
+body form.hs-form fieldset[class*="form-columns"] .hs-input[type="checkbox"] {
+  width:auto
+}
+
+body form.hs-form fieldset.form-columns-3 .hs-form-field {
+  width:33.33%;
+  text-align: center
+}
+@media(max-width:400px){
+  body form.hs-form fieldset .hs-form-field {
+    padding:0
+  }
+
+  body form.hs-form
+  fieldset.form-columns-3 .hs-form-field,
+  body form.hs-form .form-columns-2 .hs-form-field .hs-input,
+  body form.hs-form .form-columns-3 .hs-form-field .hs-input {
+    width:100%
+  }
+  body form.hs-form .form-columns-3 .hs-form-field .hs-input[type="checkbox"] {
+    width:auto
+  }
+}
+
+body .hs-button.primary,
+body input[type="submit"],
+body input[type="button"] {
+  display:inline-block;
+  padding:4px 12px;
+  margin-bottom:10px;
+  font-size:14px;
+  line-height:20px;
+  cursor:pointer;
+  text-decoration:none;
+  border-style:solid;
+  border-width:1px;
+  border-color:#058d82;
+  border-radius:4px;
+  background-image:-webkit-linear-gradient(90deg,#059b8b 0%,#06a99c 100%);
+  box-shadow:inset 0 3px 9px 0 rgba(255,255,255,0.1);
+  color:white;
+  padding:12px 20px;
+  margin-bottom:25px;
+  font-size:17px;
+  max-width:500px;
+  text-decoration:none
+}
+  body .hs-button.primary:hover,
+  body input[type="submit"]:hover,
+  body input[type="button"]:hover{
+    text-decoration:none
+  }
+  body .hs-button.primary:focus,
+  body input[type="submit"]:focus,
+  body input[type="button"]:focus {
+    outline:thin dotted #333;
+    outline:5px auto -webkit-focus-ring-color;
+    outline-offset:-2px
+  }
+
 a,
 a:hover {
     color: #000;
