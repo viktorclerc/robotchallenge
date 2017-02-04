@@ -141,7 +141,7 @@ ul {
 
 body form.hs-form label {
   padding-left: 200px;
-  font-family:ProximaNova;
+  font-family: ProximaNova;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.8;
@@ -156,7 +156,7 @@ span.hs-form-required{
   color:red
 }
 
-body{
+body {
   min-height: 100%;
   margin: 0;
   padding: 0;
@@ -200,7 +200,7 @@ body form.hs-form fieldset.form-columns-3 .hs-form-field {
 }
 @media(max-width:400px){
   body form.hs-form fieldset .hs-form-field {
-    padding:0
+    padding: 0
   }
 
   body form.hs-form
@@ -209,8 +209,13 @@ body form.hs-form fieldset.form-columns-3 .hs-form-field {
   body form.hs-form .form-columns-3 .hs-form-field .hs-input {
     width:100%
   }
+
   body form.hs-form .form-columns-3 .hs-form-field .hs-input[type="checkbox"] {
     width:auto
+  }
+
+  body form.hs-form label {
+    padding-left: 0px;
   }
 }
 
@@ -237,18 +242,20 @@ body input[type="button"] {
   max-width:500px;
   text-decoration:none
 }
-  body .hs-button.primary:hover,
-  body input[type="submit"]:hover,
-  body input[type="button"]:hover{
-    text-decoration:none
-  }
-  body .hs-button.primary:focus,
-  body input[type="submit"]:focus,
-  body input[type="button"]:focus {
-    outline:thin dotted #333;
-    outline:5px auto -webkit-focus-ring-color;
-    outline-offset:-2px
-  }
+
+body .hs-button.primary:hover,
+body input[type="submit"]:hover,
+body input[type="button"]:hover {
+  text-decoration:none
+}
+
+body .hs-button.primary:focus,
+body input[type="submit"]:focus,
+body input[type="button"]:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px
+}
 
 a,
 a:hover {
