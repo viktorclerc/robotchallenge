@@ -476,9 +476,15 @@ a:hover {
     background: url(../img/bot-videos.png) bottom center no-repeat;
 }
 
+.more-info {
+    margin-bottom: 0;
+  	color: #06a99c;
+    font-weight: bold;
+    font-size: 1.2em;
+}
 .tour-item .title {
     margin-bottom: 0;
-	color: #06a99c;
+  	color: #06a99c;
     font-weight: bold;
     font-size: 1.2em;
 }
