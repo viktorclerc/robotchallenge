@@ -72,6 +72,10 @@ video {
     vertical-align: middle;
 }
 
+img {
+    padding: 0 40px 30px 0;
+}
+
 /*
  * Remove default fieldset styles.
  */
