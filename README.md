@@ -1,3 +1,3 @@
 # Xebia Robot Challenge
 
-Web site contents for http://www.xebia.com/robot-challenge
+Web site contents for http://robotchallenge.xebia.com/
